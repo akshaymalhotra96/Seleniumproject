@@ -36,9 +36,9 @@ public class LoginDataProviders {
 		return new ApachePOIExcelRead().getExcelContent(fileName); 
 	}
 	
-	@DataProvider(name = "xls-inputs")
-	public Object[][] getXLSData(){
+	//@DataProvider(name = "xls-inputs")
+	//public Object[][] getXLSData(){
 		// ensure you will have the title as first line in the file 
-		return new ReadExcel().getExcelData("C:/Users/Naveen/Desktop/Testing.xls", "Sheet1"); 
+		//return new ReadExcel().getExcelData("C:/Users/Naveen/Desktop/Testing.xls", "Sheet1"); 
 	}
-}
+
